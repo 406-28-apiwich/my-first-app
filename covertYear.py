@@ -1,5 +1,5 @@
 import steamlit as st
-st.title("เเอปพลิเคชั่นเเปลงปี พ.ศ. - ค.ศ.")
+st.title("เเอปพลิเคชั่นเเปลงปี พ.ศ. เป็น ค.ศ.")
 
 bh_year=st.number_input("กรอกปี พ.ศ. ที่ต้องการเเปลง",value=2569)
 ce_year=bh_year-543
