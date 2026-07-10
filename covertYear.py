@@ -1,0 +1,6 @@
+import steamlit as st
+st.title("เเปลง พ.ศ. - ค.ศ.")
+
+bh_year=st.number.input("กรอกปี พ.ศ. ที่ต้องการเเปลง" , value=2569)
+ce_year=bh_year-543
+st.header(f"ปี ค.ศ. = : {ce_year}")
