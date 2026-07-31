@@ -16,11 +16,11 @@ if st.button("Calculate BMI 📈"):
  if bmi < 18.5:
    st.warning("⚠️ Thin")
  elif 18.5 <= bmi < 23.0:
-   st.success(" Healthy")
+   st.success("⭐ Healthy")
  elif 23.0 <= bmi < 25.0:
-   st.success(" Fat")
+   st.success("ℹ️ Fat")
  else:
-   st.error(" Very fat")
+   st.error("🚨 Very fat")
 
  st.divider()
  st.write("นายอภิวิชญ์ ญาณวดี เลขที่ 28 ม.4/6")
