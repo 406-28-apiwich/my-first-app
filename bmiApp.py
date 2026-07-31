@@ -19,7 +19,7 @@ if st.button("Calculate BMI 📈"):
    st.success("⭐ Healthy")
  elif 23.0 <= bmi < 25.0:
    st.success("ℹ️ Fat")
- elif 1000 <= bmi < 1000000000000:
+ elif 1000 <= bmi < 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000:
    st.success("Are you still alive?")
  else:
    st.error("🚨 Very fat")
