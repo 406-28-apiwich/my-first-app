@@ -105,7 +105,7 @@ ans3 = st.text_input(
     value=st.session_state.ans3_val,
 )
 ans4 = st.text_input(
-    "ข้อ 4: AND HERE IN MY H_A_RT!",
+    "ข้อ 4: IN MY H_A_T",
     value=st.session_state.ans4_val,
 )
 
